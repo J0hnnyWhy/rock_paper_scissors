@@ -5,7 +5,9 @@ class String
       true
     elsif player_one.==("paper").&(player_two.==("rock"))
       true
+    elsif player_one.==("scissors").&(player_two.==("paper"))
+      true
     else
     end
-    end
+  end
 end
