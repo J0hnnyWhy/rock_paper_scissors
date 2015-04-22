@@ -13,8 +13,26 @@ class String
         rock.fetch("rock")
       else
       end
-    else
-    end
 
+    elsif player_one.==("paper")
+      if player_two.==("scissors")
+        paper.fetch("scissors")
+      elsif player_two.==("rock")
+        paper.fetch("rock")
+      elsif player_two.==("paper")
+        paper.fetch("paper")
+      else
+      end
+    elsif player_one.==("scissors")
+      if player_two.==("rock")
+        scissors.fetch("rock")
+      elsif player_two.==("paper")
+        scissors.fetch("paper")
+      elsif player_two.==("scissors")
+        scissors.fetch("scissors")
+      else
+      end
+    else "Not a valid symbol"
+    end
   end
 end
