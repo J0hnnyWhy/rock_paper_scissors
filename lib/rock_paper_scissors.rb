@@ -7,6 +7,8 @@ class String
       true
     elsif player_one.==("scissors").&(player_two.==("paper"))
       true
+    elsif player_one.==(player_two)
+      "It's a tie"
     else
     end
   end

@@ -11,4 +11,7 @@ describe('String#beats?') do
   it("returns true if scissors it the object and paper is the argument") do
     expect("scissors".beats?("paper")).to(eq(true))
   end
+  it("returns false if the object and argument are the same") do
+    expect("rock".beats?("rock")).to(eq("It's a tie"))
+  end
 end
